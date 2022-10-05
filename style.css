@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(151, 115, 115);
+    text-align: center;
+    margin: 0;
+    color: aliceblue;
+    nim width: 200vh;
+}
+
+*{
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+list-style: none;
+}
+.box{
+border: 6px solid white;
+transition: 0.25s ease;
+background: black;
+padding: 10px;
+}
+p{
+ visibility: hidden;
+ width: 240 px;
+margin: 10px auto 0;
+opacity:  0;
+transition: 0.6s;
+transform: translateX(-200px);
+}
+
+.question-clicked{
+background: rgb(red, green, blue);
+border-radius: 30px;
+border: 6px dashed rgb(231, 255, 192);
+
+
+}
+
+.show-reponse{
+visibility: visible;
+opacity: 1;
+transform: translateX(0px);
+}
